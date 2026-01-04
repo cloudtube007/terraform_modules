@@ -1,6 +1,6 @@
 We are getting this kind  of below error:
 
-git push origin dev
+-------> git push origin dev
       error: src refspec dev does not match any
       error: failed to push some refs to 'https://github.com/cloudtube007/terraform_modules.git'
 
@@ -15,9 +15,9 @@ No commits yet
 Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
 
->>>>> git rm --cached -r *  {it will remove all the commit changes}
+-------> git rm --cached -r *  {it will remove all the commit changes}
 
->>>>> git status
+-------> git status
 On branch dev
 
 No commits yet
@@ -27,9 +27,9 @@ Untracked files
         .gitignore
 
 
->>>>> git add .
->>>>> git commit -m "____"
->>>>> git branch
+-------> git add .
+-------> git commit -m "____"
+-------> git branch
 * dev
 
->>>>> git push -u origin dev
+-------> git push -u origin dev
