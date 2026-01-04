@@ -1,14 +1,13 @@
 We are getting this kind  of below error:
 
->>>>> git push origin dev
+git push origin dev
       error: src refspec dev does not match any
       error: failed to push some refs to 'https://github.com/cloudtube007/terraform_modules.git'
 
-run:
->>>>> git pull --rebase dev
+git pull --rebase dev
       fatal: Updating an unborn branch with changes added to the index.
 
->>>>> git status
+-------> git status
 On branch dev
 
 No commits yet
